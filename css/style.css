@@ -102,12 +102,10 @@ a {text-decoration:none;}
   background-image: url(../img/bg2.jpg);
 }
 .background:nth-child(3) {
-  background-image: url(../img/bg3.jpg);
-}
-.background:nth-child(4) {
   background-image: url(../img/bg4.jpg);
 }
-.background:nth-child(5) {
+
+.background:nth-child(4) {
   background-image: url(../img/bg5.jpg);
 }
 
@@ -736,7 +734,7 @@ a.map {border-bottom: 1px dashed;    color: #fff;}
         bottom: 5px;
         border-radius: 50%;
         border: 3px solid transparent;
-        border-top-color: #ab4964;
+        border-top-color: black;
 
         -webkit-animation: spin 3s linear infinite; /* Chrome, Opera 15+, Safari 5+ */
         animation: spin 3s linear infinite; /* Chrome, Firefox 16+, IE 10+, Opera */
@@ -751,7 +749,7 @@ a.map {border-bottom: 1px dashed;    color: #fff;}
         bottom: 15px;
         border-radius: 50%;
         border: 3px solid transparent;
-        border-top-color: #25E2F7;
+        border-top-color: white;
 
         -webkit-animation: spin 1.5s linear infinite; /* Chrome, Opera 15+, Safari 5+ */
           animation: spin 1.5s linear infinite; /* Chrome, Firefox 16+, IE 10+, Opera */
@@ -860,7 +858,7 @@ html, body {
   left: 100%;
   margin-left: -100px;
   height: 200%;
-      background: rgba(145, 255, 255, 0.65);
+      background: black;
   -webkit-transition: all ease .5s;
   -moz-transition: all ease .5s;
   -ms-transition: all ease .5s;
